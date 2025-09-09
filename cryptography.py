@@ -21,7 +21,7 @@ def crack_substitution(encrypted_text):
         if c.isalpha():
             letters_only += c.upper()
     
-    # Count how often each letter appears
+    # Count how often each letter appear
     letter_counts = Counter(letters_only)
     
     # Get cipher letters sorted by how frequently they appear
